@@ -26,7 +26,7 @@ The code-generation module receives in input the incremental model and generates
 
 ## Proposed framework
 
-[Proposed framework image]
+![Proposed framework image](https://github.com/LacavaMarco/NAS-for-Incremental-OnDevice-Learning/blob/main/Proposed_framework/Proposed_framework.png)
 
 ### Structured pruning
 The smallest optimal CNAS model has a size that amounts to 8.72MB, a dimension which significantly exceeds the operational capabilities of MCUs. To achieve a reduction in model size, structured pruning has been selected as the first approach. 
