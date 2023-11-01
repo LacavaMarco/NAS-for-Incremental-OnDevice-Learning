@@ -41,3 +41,8 @@ Once the tiny incremental on-device version of the CNAS model has been produced,
 To validate our solution, we decided to analyze different application scenarios: concept drift, incremental learning, and transfer learning.
 The experimental setting concerns the image classification on a multi-class problem. For this purpose, CIFAR-10 and [Imagenette](https://github.com/fastai/imagenette) (10 classes color datasets) have been considered. 
 Two distinct solutions are considered for the comparison: an incremental version of the baseline model, and an incremental model designed with TinyOL, an alternative incremental on-device toolbox, which rather than using a buffer performs the incremental training only on the latest supervised sample received.
+
+## Structure of the repository
+- [Proposed_framework](https://github.com/LacavaMarco/NAS-for-Incremental-OnDevice-Learning/tree/main/Proposed_framework) contains the code for **structured pruning**, while the code for the **implementation of quantization in TyBox** can be found [here](https://github.com/pavmassimo/TyBox/tree/feature-extractor-quantization).
+- [Experiment_notebooks](https://github.com/LacavaMarco/NAS-for-Incremental-OnDevice-Learning/tree/main/Experiment_notebooks) contains the notebooks of the performed experiments.
+- A more in depth description of the work can be found in the [Executive Summary](https://github.com/LacavaMarco/NAS-for-Incremental-OnDevice-Learning/blob/main/Executive%20Summary%20Lacava.pdf) and [Master Thesis](https://github.com/LacavaMarco/NAS-for-Incremental-OnDevice-Learning/blob/main/Master%20Thesis%20Lacava.pdf) documents.
